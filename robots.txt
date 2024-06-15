@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /static/
+Allow: /
+Disallow: /*
