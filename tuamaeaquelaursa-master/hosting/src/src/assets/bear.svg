@@ -1,0 +1,50 @@
+<svg width="1e3" height="1e3" version="1.1" viewBox="0 0 264.58333 264.58334" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <rect width="100%" height="100%" fill="#DDE8F9"/>
+  <g transform="translate(0,-32.41665)">
+    <circle id="ear-left"  cx="79.375"    cy="114.43748" r="20.505207" fill="#c5b697" stroke="#383838" stroke-width="6.6145835"/>
+    <circle id="ear-right" cx="185.20833" cy="114.43748" r="20.505207" fill="#c5b697" stroke="#383838" stroke-width="6.6145835">
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0 0; 6.34991 6.34997; 0 0; 6.34991 6.34997; 6.34991 6.34997; 0 0; 0 0; 0 0; 0 0; 0 0; 0 0;"
+        dur="1s"
+        repeatCount="indefinite"
+      />
+    </circle>
+
+    <path d="m132.29167 99.223952c-37.744135 0-68.130212 30.396588-68.130212 68.153798v173.69279h136.26041v-173.69279c0-37.75721-30.38606-68.153798-68.1302-68.153798z" fill="#775d46" stroke="#383838" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.6145835" style="paint-order:fill markers stroke"/>
+
+    <ellipse id="eye-left" cx="97.234375" cy="160.07811" rx="9.921875" ry="9.921875" fill="#383838">
+      <animate
+        attributeName="ry"
+        dur="2s"
+        values="9.921875; 9.921875; 9.921875; 9.921875; 9.921875; 9.921875; 9.921875; 9.921875; 2; 9.921875;"
+        repeatCount="indefinite"
+      />
+    </ellipse>
+    <use id="eye-right" transform="translate(70.114574,-3.7871938e-6)" width="100%" height="100%" xlink:href="#eye-left"/>
+
+    <g id="nose">
+      <ellipse cx="132.29167" cy="200.66975" rx="42.333336" ry="34.395832" fill="#c5b697" style="paint-order:fill markers stroke"/>
+      <ellipse cx="132.29167" cy="186.92665" rx="13.229167" ry="11.244791" fill="#383838" style="paint-order:fill markers stroke"/>
+      <rect x="130.3073" y="194.57961" width="3.96875" height="16.631409" fill="#383838" stroke="#383838" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.6145835" style="paint-order:fill markers stroke"/>
+      <path id="path865" d="m111.55484 200.36556c0 8.15924 7.01439 10.18363 12.07834 10.18363l8.58313-3e-5" fill="none" stroke="#383838" stroke-linejoin="round" stroke-width="9.260417"/>
+      <use transform="matrix(-1,0,0,1,264.58335,1.2806189e-8)" width="100%" height="100%" xlink:href="#path865"/>
+    </g>
+    <g id="hand">
+      <path d="m46.378228 175.95311c-13.558572 0-24.47396 11.06245-24.47396 24.80371v140.31372h48.947919v-140.31372c0-13.74126-10.915386-24.80371-24.473959-24.80371z" fill="#775d46" stroke="#383838" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.6145835" style="paint-order:fill markers stroke"/>
+      <circle cx="46.378227" cy="211.03928" r="10.583333" fill="#c5b697" style="paint-order:fill markers stroke"/>
+      <circle id="circle871" cx="33.545937" cy="198.20697" r="3.3072917" fill="#c5b697" style="paint-order:fill markers stroke"/>
+      <use id="use873" transform="translate(8.5548618,-6.0854168)" width="100%" height="100%" xlink:href="#circle871"/>
+      <use id="use875" transform="translate(8.5548597)" width="100%" height="100%" xlink:href="#use873"/>
+      <use transform="translate(8.5548598,6.0854168)" width="100%" height="100%" xlink:href="#use875"/>
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0 0; 0 0; 0 10; 0 0; 0 0; 0 0; 0 0; 0 0; 0 0; 0 0; 0 0; 0 0; 0 0;"
+        dur="2s"
+        repeatCount="indefinite"
+      />
+    </g>
+  </g>
+</svg>
